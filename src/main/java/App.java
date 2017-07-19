@@ -13,9 +13,9 @@ public class App {
     System.out.println("Enter Third Side:");
     String sideC= myConsole.readLine();
 
-    int intSideA = Integer.parseInt(SideA);
-    int intSideB = Integer.parseInt(SideB);
-    int intSideC = Integer.parseInt(SideC);
+    int intSideA = Integer.parseInt(sideA);
+    int intSideB = Integer.parseInt(sideB);
+    int intSideC = Integer.parseInt(sideC);
 
     // PingPong pingPong = new PingPong();
     // List<Object> pingPongResult = pingPong.runPingPong(intUserNumber);
