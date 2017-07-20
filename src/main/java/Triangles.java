@@ -9,7 +9,4 @@ public class Triangles {
 		mSideB = sideB;
 		mSideC = sideC;
 	}
-
-	// public String triangleDescription(String name) {
-	// }
 }
