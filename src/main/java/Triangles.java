@@ -1,10 +1,10 @@
 public class Triangles {
 
-	public String mSideA;
-	public String mSideB;
-	public String mSideC;
+	public int mSideA;
+	public int mSideB;
+	public int mSideC;
 
-	public Triangles(String sideA, String sideB, String sideC) {
+	public Triangles(int sideA, int sideB, int sideC) {
 		mSideA = sideA;
 		mSideB = sideB;
 		mSideC = sideC;
