@@ -17,8 +17,24 @@ public class App {
     int intSideB = Integer.parseInt(sideB);
     int intSideC = Integer.parseInt(sideC);
 
-    // PingPong pingPong = new PingPong();
-    // List<Object> pingPongResult = pingPong.runPingPong(intUserNumber);
-    // System.out.println(pingPongResult);
+    if (intSideA == intSideB && intSideA != intSideC) {
+        System.out.println("Isosceles");
+    }
+
+    else if (intSideB == intSideC && intSideB != intSideA) {
+        System.out.println("Isosceles");
+    }
+
+    else if (intSideA == intSideC && intSideA != intSideB) {
+        System.out.println("Isosceles");
+    }
+
+    else if (intSideA != intSideB && intSideA != intSideC) {
+        System.out.println("Scalene");
+    }
+
+    else {
+        System.out.println("Equilateral");
+    }
   }
 }
